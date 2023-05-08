@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 This is a practice project for The Odin Project: CV Application.
 
 # Getting Started with Create React App
