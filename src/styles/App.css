@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#root {
+    padding: 40px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 3fr 3fr;
+}
+
+.container > div {
+    /* border: 1px solid lightgrey; */
+    padding: 20px;
+}
+
+.sidebar {
+    grid-row: 1/4;
+    background-color: #0ea5e9;
+    color: white;
+}
+
+h2,
+#expDates,
+#eduDates {
+    color: #0ea5e9;
+}
+
+#expTitle, 
+#eduStudy {
+    font-weight: bold;
+}
+
+#expDates,
+#eduDates {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.sidebar h3 {
+    margin: 10px;
+}
+
+.infoForm {
+    gap: 10px;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.header {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #0ea5e9;
+}
+
+.exp {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.edu {
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+#headerName {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#headerTitle {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.expForm,
+.eduForm {
+    margin: 20px 0;
+    position: relative;
+}
+
+#expDates,
+#eduDates {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+textarea {
+    width: 100%;
+    min-height: 100px;
+    resize: vertical;
+}
+
+.multiline {
+    white-space: pre;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    margin: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+li {
+    margin: 5px 0;
+}
