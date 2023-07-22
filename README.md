@@ -1,6 +1,6 @@
-# odin-cv-project
+# cv-project
 
-This is a practice project for The Odin Project: CV Application.
+View app at: https://anthony-roncal.github.io/cv-project/
 
 # Getting Started with Create React App
 
